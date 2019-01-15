@@ -1,0 +1,63 @@
+class Exercise52
+{
+	public static void main(String args[])
+	{
+	int n=Integer.parseInt(args[0]);
+	if( n>=1 && n<=12)
+	{
+	if(n==1)
+	{
+	System.out.print("January");
+	}
+	if(n==2)
+	{
+	System.out.print("February");
+	}
+	if(n==3)
+	{
+	System.out.print("March");
+	}
+	if(n==4)
+	{
+	System.out.print("April");
+	}
+	if(n==5)
+	{
+	System.out.print("May");
+	}
+	if(n==6)
+	{
+	System.out.print("June");
+	}
+	if(n==7)
+	{
+	System.out.print("July");
+	}
+	if(n==8)
+	{
+	System.out.print("August");
+	}
+	if(n==9)
+	{
+	System.out.print("September");
+	}
+	if(n==10)
+	{
+	System.out.print("October");
+	}
+	if(n==11)
+	{
+	System.out.print("November");
+	}
+	if(n==12)
+	{
+	System.out.print("December");
+	}
+    }
+	else
+	{
+	System.out.print("error");
+	}
+
+}	
+}
