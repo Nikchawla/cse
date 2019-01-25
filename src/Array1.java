@@ -10,7 +10,7 @@ class Array1 {
 	{  
 	  x[i]= s1.nextInt();
 	  }
-	  System.out.println("enter the element of the array");
+	  System.out.println("enter the element which you want to find");
 	  int y = s1.nextInt();
 	  for(i=0;i<10;i++)
 	  { if(x[i]==y)

@@ -1,6 +1,8 @@
 import java.util.*;
 class Date
 {
+    public static void main(String args[])
+    {
 	private int month;
 	private int day;
 	private int year;
@@ -17,7 +19,7 @@ class Date
     {this.month =month;
     }
     else{
-    System.out.print("Invalid month") 
+    System.out.print("Invalid month"); 
     }
     }
     public int getmonth() 
@@ -35,7 +37,7 @@ class Date
     System.out.println("Invalid day");
     }
     }
-    public int getYear()
+    public int getDay()
     {
     	return day;
     }
@@ -52,7 +54,7 @@ class Date
     }
     public void displayDate()
     {
-    	System.out.println("result is" +day +/ +month +/ +year);                                                                                       
-
+    	System.out.println("result is" +day +" " +month +" " +year);                                                                                       
+     }
     }
 }
